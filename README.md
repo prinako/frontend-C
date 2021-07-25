@@ -43,7 +43,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [prince](https://www.your-site.com)
+- **Prince**
 - Frontend Mentor - [@prinako](https://www.frontendmentor.io/profile/prinako)
 - Twitter - [@prinako1](https://www.twitter.com/prinako1)
 
