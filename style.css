@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/*
- */
 :root {
   --main-background: hsl(233, 47%, 7%);
   --card-background: hsl(244, 38%, 16%);
@@ -82,20 +80,35 @@ p {
 }
 
 @media screen and (min-width:376px) {
-  h{
+  .img-mobile img {
+    width: 100%;
+  }
+
+  .img-mobile:before {
+    height: calc(100% - 0.2rem);
+  }
+  .content {
+    padding: 2rem calc(15% - 2rem);
+  }
+}
+
+@media screen and (min-width:576px) {
+  h {
     line-height: 2;
   }
+
   section {
-    padding: 5.5rem 8rem;
+    padding: 5.5rem calc(10% - 2rem);
   }
+
   .card {
-    height:27rem;
+    height: 27rem;
   }
+
   .image {
     float: right;
     overflow: ;
-
-    width:45%;
+    width: 45%;
   }
 
   .img-mobile {
@@ -104,8 +117,9 @@ p {
 
   .img-desktop {
     display: block;
-    position:relative;
+    position: relative;
   }
+
   .img-desktop:before {
     background-color: hsl(244, 38%, 40%, 0.5);
     content: '';
@@ -114,13 +128,15 @@ p {
     position: absolute;
     width: 100%;
   }
+
   .content {
     text-align: left;
     height: 100%;
-    padding: 4rem 6rem;
+    padding: 4rem calc(10% - 1rem);
     width: 55%;
   }
-  .views{
+
+  .views {
     display: flex;
     justify-content: space-between;
     padding: 4rem 1.2rem 0 0;
