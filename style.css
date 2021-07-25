@@ -29,7 +29,6 @@ p {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 15px;
-  line-height: 2;
 }
 
 .card {
@@ -83,6 +82,9 @@ p {
 }
 
 @media screen and (min-width:376px) {
+  h{
+    line-height: 2;
+  }
   section {
     padding: 5.5rem 8rem;
   }
