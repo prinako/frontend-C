@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+ */
+:root {
+  --main-background: hsl(233, 47%, 7%);
+  --card-background: hsl(244, 38%, 16%);
+  --accent: hsl(277, 64%, 61%);
+  --main-heading: hsl(0, 0%, 100%);
+  --main-paragraph: hsl(0, 0%, 100%, 0.75);
+  --stats-heading: hsl(0, 0%, 100%, 0.6);
+}
+
+section {
+  background-color: var(--main-background);
+  padding: 5rem 1rem;
+}
+
+span {
+  color: var(--accent)
+}
+
+p {
+  color: var(--main-paragraph);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.img-desktop {
+  display: none;
+}
+
+.img-mobile {
+  position: relative;
+}
+
+.img-mobile:before {
+  background-color: hsl(244, 38%, 40%, 0.5);
+  content: '';
+  display: block;
+  height: calc(99% - 0.1rem);
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.main-header {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1rem;
+  color: var(--main-heading);
+}
+
+.main-paragraph {
+  color: var(--main-paragraph);
+  padding-bottom: 1.5rem;
+}
+
+.stats {
+  padding-bottom: 1rem;
+}
+
+.stats-header {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  color: var(--stats-heading);
+}
+
+@media screen and (min-width:376px) {
+  section {
+    padding: 5.5rem 8rem;
+  }
+  .card {
+    height:27rem;
+  }
+  .image {
+    float: right;
+    overflow: ;
+
+    width:45%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    display: block;
+    position:relative;
+  }
+  .img-desktop:before {
+    background-color: hsl(244, 38%, 40%, 0.5);
+    content: '';
+    display: block;
+    height: calc(99% - 0.1rem);
+    position: absolute;
+    width: 100%;
+  }
+  .content {
+    text-align: left;
+    height: 100%;
+    padding: 4rem 6rem;
+    width: 55%;
+  }
+  .views{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 1.2rem 0 0;
+  }
+}
