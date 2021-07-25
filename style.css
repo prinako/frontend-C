@@ -79,6 +79,17 @@ p {
   color: var(--stats-heading);
 }
 
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+ 
+
 @media screen and (min-width:376px) {
   .img-mobile img {
     width: 100%;
