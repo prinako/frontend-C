@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop screenshot](screenshot/desktop.jpg)
+![desktop screenshot](https://github.com/prinako/frontend-C/blob/master/screenshot/desktop.png)
 
 
 ### Links
 
 - Solution [solution URL here](https://github.com/prinako/frontend-C/)
-- Live Site URL: [live site URL](https://prinako.github.io/frontend-C/)
+- Live Site URL: [live site URL here](https://prinako.github.io/frontend-C/)
 
 ## My process
 
