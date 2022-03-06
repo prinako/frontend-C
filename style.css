@@ -88,6 +88,24 @@ p {
   color: var(--stats-heading);
 }
 
+.attribution {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9rem;
+  font-weight:300;
+  text-align: center;
+  color: aliceblue;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.attribution a {
+  color: hsl(277, 64%, 61%);
+}
+.attribution a:hover{
+  color:#fff;
+}
+ 
+
 @media screen and (min-width:376px) {
   .img-mobile img {
     width: 100%;
